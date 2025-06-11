@@ -1,0 +1,295 @@
+<!--
+jesus
+Manoj's Portfolio Website
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px auto;
+            max-width: 1200px;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        .section-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        .project {
+            margin: 20px 0;
+        }
+        .project-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .project-description {
+            margin-bottom: 10px;
+        }
+        .view-project-button {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .view-project-button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #4CAF50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manoj Portfolio</h1>
+        <p>Welcome to my portfolio! Here are my projects showcasing my data analysis skills.</p>
+    </header>
+
+    <nav>
+        <a href="#mysql">MySQL</a>
+        <a href="#excel">Excel</a>
+        <a href="#tableau">Tableau</a>
+        <a href="#powerbi">Power BI</a>
+        <a href="#python">Python</a>
+        <a href="#webscraping">Web Scraping</a>
+        <a href="#pandas">Pandas</a>
+    </nav>
+
+    <section id="mysql">
+        <h2>MySQL Projects</h2>
+        <img src="Images/MySQL.png" alt="MySQL Projects" class="section-image">
+        <div class="project">
+            <div class="project-title">Data Cleaning</div>
+            <div class="project-description">
+                <ol>
+                    <li>Created a staging table for safe data manipulation.</li>
+                    <li>Identified and removed duplicate entries using ROW_NUMBER().</li>
+                    <li>Standardized columns like industry and country for consistency.</li>
+                    <li>Formatted date columns and cleaned null values.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/MySQL_DataCleaning.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-title">Exploratory Data Analysis</div>
+            <div class="project-description">
+                <ol>
+                    <li>Analyzed trends using grouping and aggregation by regions and industries.</li>
+                    <li>Created rolling totals for layoffs and highlighted key patterns.</li>
+                    <li>Used advanced queries with CTEs to rank companies by layoffs.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/MySQL_ExploriatoryDataAnalysiss.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="excel">
+        <h2>Excel Projects</h2>
+        <img src="Images/Excel.png" alt="Excel Projects" class="section-image">
+        <div class="project">
+            <div class="project-title">Bike Buyers Analysis</div>
+            <div class="project-description">
+                <ol>
+                    <li>Cleaned and standardized data for consistency.</li>
+                    <li>Analyzed purchasing trends using pivot tables and charts.</li>
+                    <li>Identified key customer profiles likely to purchase bikes.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/Excel_FullProject.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-title">US Presidents Data Cleaning</div>
+            <div class="project-description">
+                <ol>
+                    <li>Standardized inconsistent text formats and fixed typos.</li>
+                    <li>Formatted date columns and filled missing values.</li>
+                    <li>Created summary charts for key insights like tenure and salaries.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/Excel_DataCleaning.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tableau">
+        <h2>Tableau Projects</h2>
+        <img src="Images/Tableau.png" alt="Tableau Projects" class="section-image">
+        <div class="project">
+            <div class="project-title">Airbnb Data Visualization</div>
+            <div class="project-description">
+                <ol>
+                    <li>Created interactive dashboards for price trends and reviews.</li>
+                    <li>Visualized listing distributions using geographical maps.</li>
+                    <li>Added filters and drill-down options for user exploration.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/Tableau_FullProject.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+        <!--<div class="project">
+            <div class="project-title">Regional Sales Dashboard</div>
+            <div class="project-description">
+                <ol>
+                    <li>Analyzed sales trends using bar and line charts.</li>
+                    <li>Designed heat maps to highlight regional performance.</li>
+                    <li>Integrated KPIs for actionable insights.</li>
+                </ol>
+                <a href="link-to-regional-sales.html" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>-->
+    </section>
+
+    <section id="powerbi">
+        <h2>Power BI Projects</h2>
+        <img src="Images/PowerBI.png" alt="Power BI Projects" class="section-image">
+        <div class="project">
+            <div class="project-title">Data Professional Survey Analysis</div>
+            <div class="project-description">
+                <ol>
+                    <li>Explored demographic trends using slicers and filters.</li>
+                    <li>Created charts for satisfaction levels and career challenges.</li>
+                    <li>Highlighted geographic insights in interactive maps.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/PowerBI_FullProject.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+        <!--<div class="project">
+            <div class="project-title">Regional Insights Dashboard</div>
+            <div class="project-description">
+                <ol>
+                    <li>Aggregated and visualized metrics by region.</li>
+                    <li>Enabled interactivity for detailed demographic analysis.</li>
+                    <li>Provided actionable insights into regional performance.</li>
+                </ol>
+                <a href="link-to-regional-insights.html" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>-->
+    </section>
+
+    <section id="python">
+        <h2>Python Projects</h2>
+        <img src="Images/Python.jpg" alt="Python Projects" class="section-image">
+        <div class="project">
+            <div class="project-title">BMI Calculator</div>
+            <div class="project-description">
+                <ol>
+                    <li>Calculated BMI using weight and height inputs.</li>
+                    <li>Classified BMI results into health categories.</li>
+                    <li>Displayed personalized health suggestions.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/Python_BMICalculator.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-title">File Sorter</div>
+            <div class="project-description">
+                <ol>
+                    <li>Organized files by type into dedicated folders.</li>
+                    <li>Handled file operations using `os` and `shutil` libraries.</li>
+                    <li>Automated directory organization with a reusable script.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/Python_FileSorter.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="webscraping">
+        <h2>Web Scraping Projects</h2>
+        <img src="Images/WebScraping.png" alt="Web Scraping Projects" class="section-image">
+        <div class="project">
+            <div class="project-title">API Data Extraction</div>
+            <div class="project-description">
+                <ol>
+                    <li>Connected to the CoinMarketCap API to fetch cryptocurrency data.</li>
+                    <li>Appended extracted data to an existing dataset.</li>
+                    <li>Handled errors with robust exception handling.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/Scraping_APIData.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-title">Amazon Product Scraper</div>
+            <div class="project-description">
+                <ol>
+                    <li>Fetched product titles and prices from Amazon pages.</li>
+                    <li>Used `BeautifulSoup` to parse HTML content.</li>
+                    <li>Designed a lightweight script for price tracking.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/Scraping_Amazon.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="pandas">
+        <h2>Pandas Projects</h2>
+        <img src="Images/Pandas.png" alt="Pandas Projects" class="section-image">
+        <div class="project">
+            <div class="project-title">Exploratory Data Analysis</div>
+            <div class="project-description">
+                <ol>
+                    <li>Loaded and inspected datasets using pandas methods.</li>
+                    <li>Visualized trends using seaborn and matplotlib.</li>
+                    <li>Performed grouping and aggregation for deeper insights.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/Pandas_EDA.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-title">Data Cleaning</div>
+            <div class="project-description">
+                <ol>
+                    <li>Handled missing values using imputation and removal.</li>
+                    <li>Standardized column names and data types.</li>
+                    <li>Removed duplicates and treated outliers effectively.</li>
+                </ol>
+                <a href="https://github.com/DARAMANOJKUMAR/Pandas_DataCleaning.git" class="view-project-button" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Data Analyst Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
